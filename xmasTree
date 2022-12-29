@@ -1,0 +1,18 @@
+dimensions = int(input("Enter the dimensions: "))
+counter1 = dimensions
+counter2 = dimensions/3
+
+while counter1 > 0:
+    for i in range(0, counter1):
+        print(" ", end=" ")
+    for j in range(0, (dimensions - counter1)):
+        print(" * ", end=" ")
+    print("")
+    counter1 -= 1
+while counter2 > 0:
+    for x in range(0, (dimensions - dimensions // 3)):
+        print(" ", end=" ")
+    for y in range(0,(dimensions//3)):
+        print(" * ", end=" ")
+    print("")
+    counter2 -= 1
