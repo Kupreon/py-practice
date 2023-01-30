@@ -1,0 +1,13 @@
+def isPrime(x):
+    for i in range (2, x - 1):
+        if x % i == 0:
+            return 0
+        else:
+            return 1
+
+num = int(input("Enter a number you want to check: "))
+
+if isPrime(num) == 1:
+    print("The number is prime!")
+else:
+    print("The number is not prime!")
