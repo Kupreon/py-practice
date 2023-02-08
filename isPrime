@@ -5,7 +5,7 @@ def isPrime(x):
         else:
             return 1
 
-num = int(input("Enter a number you want to check: "))
+num = int(input("Enter a number: "))
 
 if isPrime(num) == 1:
     print("The number is prime!")
