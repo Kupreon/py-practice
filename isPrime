@@ -8,6 +8,6 @@ def isPrime(x):
 num = int(input("Enter a number: "))
 
 if isPrime(num) == 1:
-    print("The number is prime!")
+    print("The number is prime! ")
 else:
     print("The number is not prime!")
