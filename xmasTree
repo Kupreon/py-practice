@@ -1,4 +1,4 @@
-dimensions = int(input("Enter the dimensions: "))
+dimensions = int(input("Enter the dimensions:  "))
 counter1 = dimensions
 counter2 = dimensions/3
 
